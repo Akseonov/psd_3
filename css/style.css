@@ -192,6 +192,12 @@
   .our-works__filter:hover .our-works__filter__txt {
     border-bottom: 2px solid #f4511e; }
 
+.our-works__filter-active {
+  color: #3d3d3d;
+  font-weight: 700; }
+  .our-works__filter-active .our-works__filter__txt {
+    border-bottom: 2px solid #f4511e; }
+
 .our-works__col {
   height: 175px; }
 
@@ -214,5 +220,423 @@
 
 .our-works__col:hover .our-works__img:after {
   opacity: 85%; }
+
+.clients {
+  height: 240px;
+  background-color: #1a1a1a; }
+
+clients__content {
+  vertical-align: baseline; }
+
+.clients__arrow {
+  color: #5d5d5d; }
+
+.who-we-are__h1 {
+  margin-top: 80px;
+  color: #3d3d3d;
+  font-family: "Big Noodle Titling";
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 4.8px;
+  margin-bottom: 10px; }
+
+.who-we-are__hr {
+  width: 153px;
+  height: 3px;
+  background-color: #f4511e;
+  margin-top: 0;
+  margin-bottom: 25px; }
+
+.who-we-are__p {
+  width: 520px;
+  color: #696969;
+  font-family: "Roboto - Thin";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 85px; }
+
+.who-we-are__content {
+  margin-bottom: 105px; }
+
+.who-we-are__member {
+  background-color: #ebebeb;
+  margin-right: 25px; }
+  .who-we-are__member img {
+    width: 134px;
+    height: 134px;
+    border-radius: 67px;
+    margin-top: 70px;
+    margin-bottom: 31px; }
+  .who-we-are__member h1 {
+    color: #3d3d3d;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    justify-content: center;
+    margin-bottom: 6px; }
+  .who-we-are__member p {
+    color: #3d3d3d;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    margin-bottom: 22px; }
+  .who-we-are__member img:last-of-type {
+    width: 50px;
+    height: 11px;
+    margin-top: 0;
+    margin-bottom: 80px; }
+
+.who-we-are__icons {
+  margin-bottom: 40px; }
+  .who-we-are__icons a {
+    text-decoration: none;
+    color: #696969; }
+  .who-we-are__icons a:hover {
+    color: #c0c0c0; }
+
+.who-we-are__skills {
+  background-color: #ebebeb; }
+
+.who-we-are__container {
+  margin-top: 125px;
+  margin-left: 65px;
+  margin-right: 50px; }
+  .who-we-are__container h1 {
+    color: #3d3d3d;
+    font-family: "Roboto - Bold Condensed";
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2.4px;
+    margin-bottom: 26px; }
+  .who-we-are__container p {
+    color: #858383;
+    font-family: "Roboto - Thin";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-bottom: 42px; }
+
+.skill h1 {
+  color: #3d3d3d;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  margin-bottom: 0; }
+.skill p {
+  color: #3d3d3d;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 0; }
+
+.skill__progress {
+  padding: 0; }
+
+.progress__left {
+  width: 88%;
+  height: 1px;
+  background-color: #e84c3d; }
+
+.progress__right {
+  width: 12%;
+  height: 1px;
+  background-color: #fff; }
+
+.progress__left-1 {
+  width: 91%; }
+
+.progress__right-1 {
+  width: 9%; }
+
+.progress__left-2 {
+  width: 90%; }
+
+.progress__right-2 {
+  width: 10%; }
+
+.progress__left-3 {
+  width: 98%; }
+
+.progress__right-3 {
+  width: 2%; }
+
+.features {
+  background-color: #171f23; }
+  .features h1 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: #f6f6f6;
+    font-family: "Roboto - Condensed";
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 7.2px; }
+  .features hr {
+    width: 86px;
+    height: 1px;
+    background-color: #404040;
+    margin-bottom: 45px;
+    margin-top: 0; }
+
+.features__row {
+  margin-bottom: 70px; }
+
+.features__icon {
+  color: #ff7062; }
+
+.features__h1 {
+  color: #f6f6f6;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 32px;
+  margin-bottom: 31px; }
+
+.features__p {
+  color: #f6f6f6;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 300; }
+
+.blog-post__h1 {
+  margin-top: 80px;
+  color: #3d3d3d;
+  font-family: "Big Noodle Titling";
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 4.8px;
+  margin-bottom: 10px; }
+
+.blog-post__hr {
+  width: 153px;
+  height: 3px;
+  background-color: #f4511e;
+  margin-top: 0;
+  margin-bottom: 25px; }
+
+.blog-post__p {
+  width: 520px;
+  color: #696969;
+  font-family: "Roboto - Thin";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 72px; }
+
+.card-deck {
+  margin-bottom: 115px; }
+
+.card__body {
+  background-color: #ebebeb;
+  padding: 30px; }
+  .card__body h5 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #505050;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1.8px;
+    margin-bottom: 0; }
+  .card__body p {
+    color: #797979;
+    font-family: "Roboto - Thin";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px; }
+
+.card-footer {
+  border: none;
+  background-color: #ebebeb;
+  padding-bottom: 26px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.text-muted i {
+  margin-right: 7px; }
+
+.plan {
+  background-color: #171f23; }
+  .plan h1 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: #f6f6f6;
+    font-family: "Roboto - Condensed";
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 7.2px; }
+  .plan hr {
+    width: 86px;
+    height: 1px;
+    background-color: #404040;
+    margin-bottom: 56px;
+    margin-top: 0; }
+
+.plan__block {
+  border: 1px solid #171f23; }
+
+.plan__block:hover {
+  border: 1px solid #f6744b; }
+  .plan__block:hover .plan__footer p span {
+    color: #f6744b; }
+
+.plan__row {
+  margin-bottom: 70px; }
+
+.plan__header {
+  background-color: #0e1316;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.plan__h6 {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.41px;
+  margin-bottom: 9px;
+  text-align: center; }
+
+.plan__price {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center; }
+
+.plan__footer {
+  background-color: #1f282c;
+  padding-top: 40px; }
+  .plan__footer p {
+    color: #ffffff;
+    font-weight: 100;
+    letter-spacing: 1.41px;
+    text-align: center;
+    margin-bottom: 20px; }
+  .plan__footer p:last-of-type {
+    padding-bottom: 30px;
+    margin-bottom: 0; }
+  .plan__footer span {
+    font-family: Roboto;
+    font-weight: 500;
+    letter-spacing: 1.41px; }
+  .plan__footer a {
+    display: inline-block;
+    padding: 11px 22px;
+    border-radius: 3px;
+    background-color: #f6744b;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    margin: 45px auto;
+    outline: 1px solid #f6744b; }
+  .plan__footer a:hover {
+    background-color: #1f282c;
+    color: #f6744b;
+    text-decoration: none; }
+
+.touch__h1 {
+  margin-top: 80px;
+  color: #3d3d3d;
+  font-family: "Big Noodle Titling";
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 4.8px;
+  margin-bottom: 10px; }
+
+.touch__hr {
+  width: 153px;
+  height: 3px;
+  background-color: #f4511e;
+  margin-top: 0;
+  margin-bottom: 25px; }
+
+.touch__p {
+  width: 520px;
+  color: #696969;
+  font-family: "Roboto - Thin";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 93px; }
+
+.touch__form__p {
+  color: #696969;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700; }
+  .touch__form__p span {
+    color: #f6744b; }
+
+.touch__input {
+  border-bottom: 1px solid #cacaca;
+  width: 100%;
+  padding: 5px; }
+
+.touch__textarea {
+  border-bottom: 1px solid #cacaca;
+  width: 100%;
+  padding: 5px;
+  height: 80px;
+  resize: none; }
+
+.touch__form a {
+  display: inline-block;
+  padding: 11px 22px;
+  border-radius: 3px;
+  background-color: #f6744b;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  margin: 100px auto;
+  outline: 1px solid #f6744b; }
+.touch__form a:hover {
+  background-color: #fff;
+  color: #f6744b;
+  text-decoration: none; }
+
+.footer {
+  background-color: #171f23; }
+
+.footer__content {
+  padding: 50px 0; }
+  .footer__content a {
+    color: #ffffff;
+    font-family: "Big Noodle Titling";
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2.4px; }
+  .footer__content a:hover {
+    text-decoration: none;
+    color: #c0c0c0; }
+  .footer__content p {
+    color: #ffffff;
+    font-family: "Roboto - Condensed";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    text-align: center;
+    margin-bottom: 0; }
+
+.footer__icons {
+  margin-bottom: 40px;
+  text-align: center; }
+  .footer__icons a {
+    text-decoration: none;
+    color: #e2e0e0; }
+    .footer__icons a i {
+      font-size: 14px; }
+  .footer__icons a:hover {
+    color: #c0c0c0; }
 
 /*# sourceMappingURL=style.css.map */

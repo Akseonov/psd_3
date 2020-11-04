@@ -23,13 +23,14 @@
   font-family: "Big Noodle Titling";
   font-size: 40px;
   font-weight: 400;
-  color: #696969;
   letter-spacing: 4px;
-  height: 145px; }
+  color: #696969;
+  height: 145px;
+  transition: color 0.5s; }
 
 .brand:hover {
   text-decoration: none;
-  color: #c0c0c0; }
+  color: #f6744b; }
 
 .navbar-toggler {
   border: none; }
@@ -49,10 +50,11 @@
   justify-content: flex-end; }
 
 .nav-link {
-  color: #696969; }
+  color: #696969;
+  transition: color 0.5s; }
 
 .nav-link:hover {
-  color: #c0c0c0; }
+  color: #f6744b; }
 
 .jumbotron {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/bg.jpg");
@@ -123,8 +125,8 @@
   font-family: Roboto;
   font-size: 18px;
   font-weight: 700;
-  margin-top: 25px;
-  letter-spacing: 0.45px; }
+  letter-spacing: 0.45px;
+  margin-top: 25px; }
 
 .about-us__p2 {
   width: 244px;
@@ -180,7 +182,8 @@
   padding-top: 7px;
   padding-bottom: 7px;
   margin-bottom: 25px;
-  text-align: center; }
+  text-align: center;
+  transition: color 0.5s, font-weight 0.5s; }
 
 .our-works__filter__txt {
   border-bottom: 2px solid #f8f6f6; }
@@ -190,13 +193,13 @@
   font-weight: 700;
   text-decoration: none; }
   .our-works__filter:hover .our-works__filter__txt {
-    border-bottom: 2px solid #f4511e; }
+    border-bottom: 2px solid #f6744b; }
 
 .our-works__filter-active {
   color: #3d3d3d;
   font-weight: 700; }
   .our-works__filter-active .our-works__filter__txt {
-    border-bottom: 2px solid #f4511e; }
+    border-bottom: 2px solid #f6744b; }
 
 .our-works__col {
   height: 175px; }
@@ -211,7 +214,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #f4511e;
+    background-color: #f6744b;
     opacity: 0;
     transition: 0.5s linear; }
   .our-works__img img {
@@ -225,11 +228,12 @@
   height: 240px;
   background-color: #1a1a1a; }
 
-clients__content {
-  vertical-align: baseline; }
-
 .clients__arrow {
-  color: #5d5d5d; }
+  color: #5d5d5d;
+  transition: color 0.5s; }
+
+.clients__content a:hover .clients__arrow {
+  color: #f6744b; }
 
 .who-we-are__h1 {
   margin-top: 80px;
@@ -294,7 +298,8 @@ clients__content {
   margin-bottom: 40px; }
   .who-we-are__icons a {
     text-decoration: none;
-    color: #696969; }
+    color: #696969;
+    transition: color 0.5s; }
   .who-we-are__icons a:hover {
     color: #c0c0c0; }
 
@@ -340,7 +345,7 @@ clients__content {
 .progress__left {
   width: 88%;
   height: 1px;
-  background-color: #e84c3d; }
+  background-color: #f6744b; }
 
 .progress__right {
   width: 12%;
@@ -430,6 +435,12 @@ clients__content {
 
 .card-deck {
   margin-bottom: 115px; }
+  .card-deck a img {
+    transition: 0.5s filter linear; }
+  .card-deck a:hover {
+    text-decoration: none; }
+    .card-deck a:hover img {
+      filter: brightness(30%); }
 
 .card__body {
   background-color: #ebebeb;
@@ -478,7 +489,8 @@ clients__content {
     margin-top: 0; }
 
 .plan__block {
-  border: 1px solid #171f23; }
+  border: 1px solid #171f23;
+  transition: border 0.5s; }
 
 .plan__block:hover {
   border: 1px solid #f6744b; }
@@ -524,7 +536,8 @@ clients__content {
   .plan__footer span {
     font-family: Roboto;
     font-weight: 500;
-    letter-spacing: 1.41px; }
+    letter-spacing: 1.41px;
+    transition: color 0.5s; }
   .plan__footer a {
     display: inline-block;
     padding: 11px 22px;
@@ -536,7 +549,8 @@ clients__content {
     font-weight: 700;
     letter-spacing: 1.4px;
     margin: 45px auto;
-    outline: 1px solid #f6744b; }
+    outline: 1px solid #f6744b;
+    transition: color 0.5s, background-color 0.5s; }
   .plan__footer a:hover {
     background-color: #1f282c;
     color: #f6744b;
@@ -599,7 +613,8 @@ clients__content {
   font-weight: 700;
   letter-spacing: 1.4px;
   margin: 100px auto;
-  outline: 1px solid #f6744b; }
+  outline: 1px solid #f6744b;
+  transition: color 0.5s, background-color 0.5s; }
 .touch__form a:hover {
   background-color: #fff;
   color: #f6744b;
@@ -615,10 +630,11 @@ clients__content {
     font-family: "Big Noodle Titling";
     font-size: 24px;
     font-weight: 400;
-    letter-spacing: 2.4px; }
+    letter-spacing: 2.4px;
+    transition: color 0.5s; }
   .footer__content a:hover {
     text-decoration: none;
-    color: #c0c0c0; }
+    color: #f6744b; }
   .footer__content p {
     color: #ffffff;
     font-family: "Roboto - Condensed";
@@ -633,10 +649,11 @@ clients__content {
   text-align: center; }
   .footer__icons a {
     text-decoration: none;
-    color: #e2e0e0; }
+    color: #e2e0e0;
+    transition: color 0.5s; }
     .footer__icons a i {
       font-size: 14px; }
   .footer__icons a:hover {
-    color: #c0c0c0; }
+    color: #ff7062; }
 
 /*# sourceMappingURL=style.css.map */

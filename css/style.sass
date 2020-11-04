@@ -1,4 +1,6 @@
 @import "reset"
+@import "vars"
+@import "mixins"
 
 @font-face
   font-family: "Big Noodle Titling"
@@ -11,15 +13,14 @@
 
 .brand
   font-family: "Big Noodle Titling"
-  font-size: 40px
-  font-weight: 400
+  +font(40px, 400, 4px)
   color: #696969
-  letter-spacing: 4px
   height: 145px
+  transition: color 0.5s
 
 .brand:hover
   text-decoration: none
-  color: #c0c0c0
+  color: $button-color
 
 .navbar-toggler
   border: none
@@ -40,9 +41,10 @@
 
 .nav-link
   color: #696969
+  transition: color 0.5s
 
 .nav-link:hover
-  color: #c0c0c0
+  color: $button-color
 
 .jumbotron
   //background-color: #3d3d3d
@@ -52,16 +54,12 @@
 .jumbotron__h1
   margin-top: 320px
   font-family: "Big Noodle Titling"
-  font-size: 72px
-  font-weight: 400
-  letter-spacing: 10.8px
+  +font(72px, 400, 10.8px)
   color: #d6d5d5
 
 .jumbotron__p
   font-family: "Big Noodle Titling"
-  font-size: 36px
-  font-weight: 400
-  letter-spacing: 3.6px
+  +font(36px, 400, 3.6px)
   color: #d6d5d5
   margin-bottom: 170px
 
@@ -80,15 +78,13 @@
   margin-top: 100px
   color: #3d3d3d
   font-family: "Big Noodle Titling"
-  font-size: 48px
-  font-weight: 400
-  letter-spacing: 4.8px
+  +font(48px, 400, 4.8px)
   margin-bottom: 10px
 
 .about-us__hr
   width: 153px
   height: 3px
-  background-color: #f4511e
+  background-color: $hr-color
   margin-top: 0
   margin-bottom: 25px
 
@@ -106,24 +102,20 @@
   background-color: #ebebeb
   margin-bottom: 120px
   i
-    color: #f4511e
+    color: $hr-color
     margin-top: 30px
 
 .about-us__h2
   color: #707070
   font-family: Roboto
-  font-size: 18px
-  font-weight: 700
+  +font(18px, 700, 0.45px)
   margin-top: 25px
-  letter-spacing: 0.45px
 
 .about-us__p2
   width: 244px
   color: #707070
   font-family: "Roboto - Thin"
-  font-size: 14px
-  font-weight: 400
-  letter-spacing: 0.35px
+  +font(14px, 400, 0.35px)
   text-align: center
   margin-top: 15px
   margin-bottom: 25px
@@ -135,15 +127,13 @@
   margin-top: 75px
   color: #3d3d3d
   font-family: "Big Noodle Titling"
-  font-size: 48px
-  font-weight: 400
-  letter-spacing: 4.8px
+  +font(48px, 400, 4.8px)
   margin-bottom: 10px
 
 .our-works__hr
   width: 153px
   height: 3px
-  background-color: #f4511e
+  background-color: $hr-color
   margin-top: 0
   margin-bottom: 25px
 
@@ -164,14 +154,13 @@
   display: block
   color: #3d3d3d
   font-family: Roboto
-  font-size: 14px
-  font-weight: 400
-  letter-spacing: 1.4px
+  +font(14px, 400, 1.4px)
   text-decoration: none
   padding-top: 7px
   padding-bottom: 7px
   margin-bottom: 25px
   text-align: center
+  transition: color 0.5s, font-weight 0.5s
 
 .our-works__filter__txt
   border-bottom: 2px solid #f8f6f6
@@ -181,13 +170,13 @@
   font-weight: 700
   text-decoration: none
   .our-works__filter__txt
-    border-bottom: 2px solid #f4511e
+    border-bottom: 2px solid $button-color
 
 .our-works__filter-active
   color: #3d3d3d
   font-weight: 700
   .our-works__filter__txt
-    border-bottom: 2px solid #f4511e
+    border-bottom: 2px solid $button-color
 
 .our-works__col
   height: 175px
@@ -202,7 +191,7 @@
     height: 100%
     top: 0
     left: 0
-    background-color: #f4511e
+    background-color: $button-color
     opacity: 0
     transition: 0.5s linear
   img
@@ -217,25 +206,25 @@
   height: 240px
   background-color: #1a1a1a
 
-clients__content
-  vertical-align: baseline
-
 .clients__arrow
   color: #5d5d5d
+  transition: color 0.5s
+
+.clients__content
+  a:hover .clients__arrow
+    color: $button-color
 
 .who-we-are__h1
   margin-top: 80px
   color: #3d3d3d
   font-family: "Big Noodle Titling"
-  font-size: 48px
-  font-weight: 400
-  letter-spacing: 4.8px
+  +font(48px, 400, 4.8px)
   margin-bottom: 10px
 
 .who-we-are__hr
   width: 153px
   height: 3px
-  background-color: #f4511e
+  background-color: $hr-color
   margin-top: 0
   margin-bottom: 25px
 
@@ -264,17 +253,13 @@ clients__content
   h1
     color: #3d3d3d
     font-family: Roboto
-    font-size: 20px
-    font-weight: 700
-    letter-spacing: 2px
+    +font(20px, 700, 2px)
     justify-content: center
     margin-bottom: 6px
   p
     color: #3d3d3d
     font-family: Roboto
-    font-size: 14px
-    font-weight: 300
-    letter-spacing: 1.4px
+    +font(14px, 300, 1.4px)
     margin-bottom: 22px
   img:last-of-type
     width: 50px
@@ -287,6 +272,7 @@ clients__content
   a
     text-decoration: none
     color: #696969
+    transition: color 0.5s
   a:hover
     color: #c0c0c0
 
@@ -300,25 +286,19 @@ clients__content
   h1
     color: #3d3d3d
     font-family: "Roboto - Bold Condensed"
-    font-size: 24px
-    font-weight: 600
-    letter-spacing: 2.4px
+    +font(24px, 600, 2.4px)
     margin-bottom: 26px
   p
     color: #858383
     font-family: "Roboto - Thin"
-    font-size: 14px
-    font-weight: 400
-    letter-spacing: 0.5px
+    +font(14px, 400, 0.5px)
     margin-bottom: 42px
 
 .skill
   h1
     color: #3d3d3d
     font-family: Roboto
-    font-size: 14px
-    font-weight: 700
-    letter-spacing: 1.4px
+    +font(14px, 700, 1.4px)
     margin-bottom: 0
   p
     color: #3d3d3d
@@ -334,7 +314,7 @@ clients__content
 .progress__left
   width: 88%
   height: 1px
-  background-color: #e84c3d
+  background-color: $button-color
 
 .progress__right
   width: 12%
@@ -366,9 +346,7 @@ clients__content
     margin-bottom: 20px
     color: #f6f6f6
     font-family: "Roboto - Condensed"
-    font-size: 36px
-    font-weight: 400
-    letter-spacing: 7.2px
+    +font(36px, 400, 7.2px)
   hr
     width: 86px
     height: 1px
@@ -380,7 +358,7 @@ clients__content
   margin-bottom: 70px
 
 .features__icon
-  color: #ff7062
+  color: $icon-color
 
 .features__h1
   color: #f6f6f6
@@ -400,15 +378,13 @@ clients__content
   margin-top: 80px
   color: #3d3d3d
   font-family: "Big Noodle Titling"
-  font-size: 48px
-  font-weight: 400
-  letter-spacing: 4.8px
+  +font(48px, 400, 4.8px)
   margin-bottom: 10px
 
 .blog-post__hr
   width: 153px
   height: 3px
-  background-color: #f4511e
+  background-color: $hr-color
   margin-top: 0
   margin-bottom: 25px
 
@@ -424,6 +400,13 @@ clients__content
 
 .card-deck
   margin-bottom: 115px
+  a
+    img
+      transition: 0.5s filter linear
+  a:hover
+    text-decoration: none
+    img
+      filter: brightness(30%)
 
 .card__body
   background-color: #ebebeb
@@ -433,16 +416,12 @@ clients__content
     padding-bottom: 30px
     color: #505050
     font-family: Roboto
-    font-size: 18px
-    font-weight: 300
-    letter-spacing: 1.8px
+    +font(18px, 300, 1.8px)
     margin-bottom: 0
   p
     color: #797979
     font-family: "Roboto - Thin"
-    font-size: 14px
-    font-weight: 400
-    letter-spacing: 0.7px
+    +font(14px, 400, 0.7px)
 
 .card-footer
   border: none
@@ -462,9 +441,7 @@ clients__content
     margin-bottom: 20px
     color: #f6f6f6
     font-family: "Roboto - Condensed"
-    font-size: 36px
-    font-weight: 400
-    letter-spacing: 7.2px
+    +font(36px, 400, 7.2px)
   hr
     width: 86px
     height: 1px
@@ -474,11 +451,12 @@ clients__content
 
 .plan__block
   border: 1px solid #171f23
+  transition: border 0.5s
 
 .plan__block:hover
-  border: 1px solid #f6744b
+  border: 1px solid $button-color
   .plan__footer p span
-    color: #f6744b
+    color: $button-color
 
 .plan__row
   margin-bottom: 70px
@@ -491,9 +469,7 @@ clients__content
 .plan__h6
   color: #ffffff
   font-family: Roboto
-  font-size: 14px
-  font-weight: 700
-  letter-spacing: 1.41px
+  +font(14px, 700, 1.41px)
   margin-bottom: 9px
   text-align: center
 
@@ -520,36 +496,34 @@ clients__content
     font-family: Roboto
     font-weight: 500
     letter-spacing: 1.41px
+    transition: color 0.5s
   a
     display: inline-block
     padding: 11px 22px
     border-radius: 3px
-    background-color: #f6744b
+    background-color: $button-color
     color: #ffffff
     font-family: Roboto
-    font-size: 14px
-    font-weight: 700
-    letter-spacing: 1.4px
+    +font(14px, 700, 1.4px)
     margin: 45px auto
-    outline: 1px solid #f6744b
+    outline: 1px solid $button-color
+    transition: color 0.5s, background-color 0.5s
   a:hover
     background-color: #1f282c
-    color: #f6744b
+    color: $button-color
     text-decoration: none
 
 .touch__h1
   margin-top: 80px
   color: #3d3d3d
   font-family: "Big Noodle Titling"
-  font-size: 48px
-  font-weight: 400
-  letter-spacing: 4.8px
+  +font(48px, 400, 4.8px)
   margin-bottom: 10px
 
 .touch__hr
   width: 153px
   height: 3px
-  background-color: #f4511e
+  background-color: $hr-color
   margin-top: 0
   margin-bottom: 25px
 
@@ -569,7 +543,7 @@ clients__content
   font-size: 14px
   font-weight: 700
   span
-    color: #f6744b
+    color: $button-color
 
 .touch__input
   border-bottom: 1px solid #cacaca
@@ -588,17 +562,16 @@ clients__content
     display: inline-block
     padding: 11px 22px
     border-radius: 3px
-    background-color: #f6744b
+    background-color: $button-color
     color: #ffffff
     font-family: Roboto
-    font-size: 14px
-    font-weight: 700
-    letter-spacing: 1.4px
+    +font(14px, 700, 1.4px)
     margin: 100px auto
-    outline: 1px solid #f6744b
+    outline: 1px solid $button-color
+    transition: color 0.5s, background-color 0.5s
   a:hover
     background-color: #fff
-    color: #f6744b
+    color: $button-color
     text-decoration: none
 
 .footer
@@ -609,18 +582,15 @@ clients__content
   a
     color: #ffffff
     font-family: "Big Noodle Titling"
-    font-size: 24px
-    font-weight: 400
-    letter-spacing: 2.4px
+    +font(24px, 400, 2.4px)
+    transition: color 0.5s
   a:hover
     text-decoration: none
-    color: #c0c0c0
+    color: $button-color
   p
     color: #ffffff
     font-family: "Roboto - Condensed"
-    font-size: 14px
-    font-weight: 400
-    letter-spacing: 1.4px
+    +font(14px, 400, 1.4px)
     text-align: center
     margin-bottom: 0
 
@@ -630,7 +600,8 @@ clients__content
   a
     text-decoration: none
     color: #e2e0e0
+    transition: color 0.5s
     i
       font-size: 14px
   a:hover
-    color: #c0c0c0
+    color: $icon-color

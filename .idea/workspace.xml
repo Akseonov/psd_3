@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8ce4db-dbab-46e8-9a95-bfc7e766b35a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/_mixins.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/_vars.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/e25f7e99427ff76f53c16b52b5651c076090d1a3/style.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/e25f7e99427ff76f53c16b52b5651c076090d1a3/style.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
@@ -21,14 +23,14 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6950791">
+    <splitter split-orientation="horizontal" split-proportion="0.5004255">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="224">
-                  <caret line="519" column="12" lean-forward="true" selection-start-line="519" selection-start-column="12" selection-end-line="519" selection-end-column="12" />
+                <state relative-caret-position="1156">
+                  <caret line="408" column="35" selection-start-line="408" selection-start-column="35" selection-end-line="408" selection-end-column="35" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -42,7 +44,7 @@
             <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.879/bootstrap.min.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="186">
-                  <caret line="4725" column="4" lean-forward="true" selection-start-line="4725" selection-start-column="4" selection-end-line="4728" selection-end-column="20" />
+                  <caret line="4725" column="4" selection-start-line="4725" selection-start-column="4" selection-end-line="4728" selection-end-column="20" />
                   <folding>
                     <element signature="e#39893#40148#2" expanded="true" />
                     <element signature="e#40823#40997#1" expanded="true" />
@@ -72,8 +74,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/css/style.sass">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="175">
-                      <caret line="625" lean-forward="true" selection-start-line="625" selection-end-line="625" />
+                    <state relative-caret-position="167">
+                      <caret line="406" column="25" lean-forward="true" selection-start-line="406" selection-start-column="25" selection-end-line="406" selection-end-column="25" />
                       <folding>
                         <element signature="e#594#851#2" expanded="true" />
                       </folding>
@@ -85,11 +87,29 @@
           </split-first>
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/css/_reset.sass">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="31">
+                    <state relative-caret-position="187">
                       <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/css/_vars.sass">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="17">
+                      <caret line="1" column="13" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/css/_mixins.sass">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="51">
+                      <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
                     </state>
                   </provider>
                 </entry>
@@ -125,6 +145,9 @@
       <find>colu</find>
       <find>ali</find>
       <find>card-body</find>
+      <find>#f6744b</find>
+      <find>#ff7062</find>
+      <find>hover</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,6 +159,8 @@
         <option value="$PROJECT_DIR$/css/_reset.sass" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa0.217/bootstrap.min.css" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa0.879/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/css/_vars.sass" />
+        <option value="$PROJECT_DIR$/css/_mixins.sass" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.sass" />
       </list>
@@ -220,12 +245,12 @@
       <workItem from="1604232835203" duration="587000" />
       <workItem from="1604310185323" duration="2447000" />
       <workItem from="1604402044712" duration="17787000" />
-      <workItem from="1604468854828" duration="20497000" />
+      <workItem from="1604468854828" duration="25166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63277000" />
+    <option name="totallyTimeSpent" value="67946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -300,17 +325,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_reset.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.879/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="4725" column="4" lean-forward="true" selection-start-line="4725" selection-start-column="4" selection-end-line="4728" selection-end-column="20" />
+          <caret line="4725" column="4" selection-start-line="4725" selection-start-column="4" selection-end-line="4728" selection-end-column="20" />
           <folding>
             <element signature="e#39893#40148#2" expanded="true" />
             <element signature="e#40823#40997#1" expanded="true" />
@@ -330,24 +348,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/_reset.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="519" column="12" lean-forward="true" selection-start-line="519" selection-start-column="12" selection-end-line="519" selection-end-column="12" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_mixins.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_vars.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="625" lean-forward="true" selection-start-line="625" selection-end-line="625" />
+        <state relative-caret-position="167">
+          <caret line="406" column="25" lean-forward="true" selection-start-line="406" selection-start-column="25" selection-end-line="406" selection-end-column="25" />
           <folding>
             <element signature="e#594#851#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="408" column="35" selection-start-line="408" selection-start-column="35" selection-end-line="408" selection-end-column="35" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
